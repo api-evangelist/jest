@@ -1,0 +1,77 @@
+name: Jest
+description: Delightful JavaScript Testing Framework with a focus on simplicity
+image: https://jestjs.io/img/jest.png
+tags:
+- testing
+- javascript
+- unit testing
+- mocking
+- snapshot testing
+created: '2024'
+modified: '2024'
+url: https://jestjs.io
+apis:
+- name: Jest Core API
+  description: Core testing framework API for writing and running tests
+  image: https://jestjs.io/img/jest.png
+  humanURL: https://jestjs.io/docs/api
+  baseURL: https://jestjs.io
+  tags:
+  - testing
+  - assertions
+  - mocking
+  properties:
+  - type: documentation
+    url: https://jestjs.io/docs/getting-started
+  - type: api-documentation
+    url: https://jestjs.io/docs/api
+  - type: github-repository
+    url: https://github.com/jestjs/jest
+  - type: openapi
+    url: https://jestjs.io/docs/configuration
+  contact:
+  - type: github
+    url: https://github.com/jestjs/jest/issues
+  - type: twitter
+    url: https://twitter.com/jestjs_
+- name: Jest CLI
+  description: Command-line interface for running Jest tests
+  humanURL: https://jestjs.io/docs/cli
+  baseURL: https://jestjs.io
+  tags:
+  - cli
+  - command-line
+  properties:
+  - type: documentation
+    url: https://jestjs.io/docs/cli
+  - type: examples
+    url: https://jestjs.io/docs/getting-started
+- name: Jest Configuration API
+  description: Programmatic configuration options for Jest
+  humanURL: https://jestjs.io/docs/configuration
+  baseURL: https://jestjs.io
+  tags:
+  - configuration
+  - setup
+  properties:
+  - type: documentation
+    url: https://jestjs.io/docs/configuration
+  - type: schema
+    url: https://json.schemastore.org/jest
+maintainers:
+- name: Meta Open Source
+  email: opensource@meta.com
+  url: https://opensource.fb.com
+common:
+- type: website
+  url: https://jestjs.io
+- type: blog
+  url: https://jestjs.io/blog
+- type: github-organization
+  url: https://github.com/jestjs
+- type: discord
+  url: https://discord.gg/j6FKKQQrW9
+- type: twitter
+  url: https://twitter.com/jestjs_
+- type: license
+  url: https://github.com/jestjs/jest/blob/main/LICENSE
