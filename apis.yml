@@ -1,77 +1,69 @@
+aid: jest
 name: Jest
-description: Delightful JavaScript Testing Framework with a focus on simplicity
+description: >-
+  Jest is a delightful JavaScript testing framework with a focus on simplicity.
+  It works with projects using Babel, TypeScript, Node, React, Angular, Vue and
+  more. Jest provides snapshot testing, parallel execution, built-in mocking,
+  and code coverage out of the box.
+type: Index
 image: https://jestjs.io/img/jest.png
 tags:
-- testing
-- javascript
-- unit testing
-- mocking
-- snapshot testing
-created: '2024'
-modified: '2024'
-url: https://jestjs.io
+  - Testing
+  - JavaScript
+  - Unit Testing
+  - Mocking
+  - Snapshot Testing
+url: https://raw.githubusercontent.com/api-evangelist/jest/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis:
-- name: Jest Core API
-  description: Core testing framework API for writing and running tests
-  image: https://jestjs.io/img/jest.png
-  humanURL: https://jestjs.io/docs/api
-  baseURL: https://jestjs.io
-  tags:
-  - testing
-  - assertions
-  - mocking
-  properties:
-  - type: documentation
-    url: https://jestjs.io/docs/getting-started
-  - type: api-documentation
-    url: https://jestjs.io/docs/api
-  - type: github-repository
-    url: https://github.com/jestjs/jest
-  - type: openapi
-    url: https://jestjs.io/docs/configuration
-  contact:
-  - type: github
-    url: https://github.com/jestjs/jest/issues
-  - type: twitter
-    url: https://twitter.com/jestjs_
-- name: Jest CLI
-  description: Command-line interface for running Jest tests
-  humanURL: https://jestjs.io/docs/cli
-  baseURL: https://jestjs.io
-  tags:
-  - cli
-  - command-line
-  properties:
-  - type: documentation
-    url: https://jestjs.io/docs/cli
-  - type: examples
-    url: https://jestjs.io/docs/getting-started
-- name: Jest Configuration API
-  description: Programmatic configuration options for Jest
-  humanURL: https://jestjs.io/docs/configuration
-  baseURL: https://jestjs.io
-  tags:
-  - configuration
-  - setup
-  properties:
-  - type: documentation
-    url: https://jestjs.io/docs/configuration
-  - type: schema
-    url: https://json.schemastore.org/jest
-maintainers:
-- name: Meta Open Source
-  email: opensource@meta.com
-  url: https://opensource.fb.com
+  - aid: jest:jest-core-api
+    name: Jest Core API
+    description: >-
+      Core testing framework API for writing and running tests, including
+      globals, expect assertions, mock functions, and configuration options.
+    humanURL: https://jestjs.io/docs/api
+    tags:
+      - Testing
+      - Assertions
+      - Mocking
+    properties:
+      - type: Documentation
+        url: https://jestjs.io/docs/getting-started
+      - type: Reference
+        url: https://jestjs.io/docs/api
+  - aid: jest:jest-cli
+    name: Jest CLI
+    description: Command-line interface for running Jest tests with various options.
+    humanURL: https://jestjs.io/docs/cli
+    tags:
+      - CLI
+      - Command Line
+    properties:
+      - type: Documentation
+        url: https://jestjs.io/docs/cli
+  - aid: jest:jest-configuration
+    name: Jest Configuration API
+    description: Programmatic configuration options for customizing Jest behavior.
+    humanURL: https://jestjs.io/docs/configuration
+    tags:
+      - Configuration
+      - Setup
+    properties:
+      - type: Documentation
+        url: https://jestjs.io/docs/configuration
 common:
-- type: website
-  url: https://jestjs.io
-- type: blog
-  url: https://jestjs.io/blog
-- type: github-organization
-  url: https://github.com/jestjs
-- type: discord
-  url: https://discord.gg/j6FKKQQrW9
-- type: twitter
-  url: https://twitter.com/jestjs_
-- type: license
-  url: https://github.com/jestjs/jest/blob/main/LICENSE
+  - type: Website
+    url: https://jestjs.io
+  - type: Documentation
+    url: https://jestjs.io/docs/getting-started
+  - type: Blog
+    url: https://jestjs.io/blog
+  - type: GitHub Organization
+    url: https://github.com/jestjs
+  - type: Community
+    url: https://discord.gg/j6FKKQQrW9
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
