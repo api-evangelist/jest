@@ -8,11 +8,11 @@ description: >-
 type: Index
 image: https://jestjs.io/img/jest.png
 tags:
-  - Testing
   - JavaScript
-  - Unit Testing
   - Mocking
   - Snapshot Testing
+  - Testing
+  - Unit Testing
 url: https://raw.githubusercontent.com/api-evangelist/jest/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
@@ -25,9 +25,9 @@ apis:
       globals, expect assertions, mock functions, and configuration options.
     humanURL: https://jestjs.io/docs/api
     tags:
-      - Testing
       - Assertions
       - Mocking
+      - Testing
     properties:
       - type: Documentation
         url: https://jestjs.io/docs/getting-started
