@@ -1,0 +1,13 @@
+{
+  "repo": "jest",
+  "feeds": [
+    {
+      "source": "https://jestjs.io/blog",
+      "feed_url": "https://jestjs.io/blog/rss.xml",
+      "saved": 10,
+      "title": "Jest Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:29:47Z"
+}
