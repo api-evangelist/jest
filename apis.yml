@@ -60,7 +60,7 @@ common:
     url: https://jestjs.io/docs/getting-started
   - type: Blog
     url: https://jestjs.io/blog
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/jestjs
   - type: Community
     url: https://discord.gg/j6FKKQQrW9
