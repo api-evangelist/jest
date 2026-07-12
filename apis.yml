@@ -54,6 +54,8 @@ apis:
       - type: Documentation
         url: https://jestjs.io/docs/configuration
 common:
+  - type: DomainSecurity
+    url: security/jest-domain-security.yml
   - type: Website
     url: https://jestjs.io
   - type: Documentation
