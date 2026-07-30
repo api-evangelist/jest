@@ -6,6 +6,18 @@ description: >-
   more. Jest provides snapshot testing, parallel execution, built-in mocking,
   and code coverage out of the box.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://jestjs.io/img/jest.png
 tags:
   - JavaScript
