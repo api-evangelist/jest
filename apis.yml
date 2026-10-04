@@ -30,6 +30,9 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://jestjs.io/img/jest.png
+x-docs-platform: docusaurus
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
   - JavaScript
   - Mocking
