@@ -1,4 +1,4 @@
-# Jest (jest)
+# Jest
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,73 +66,104 @@
 
 Jest is a delightful JavaScript testing framework with a focus on simplicity. It works with projects using Babel, TypeScript, Node, React, Angular, Vue and more. Jest provides snapshot testing, parallel execution, built-in mocking, and code coverage out of the box.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/jest/refs/heads/main/apis.yml)
+**Areas:** JavaScript · Mocking · Snapshot Testing · Testing · Unit Testing
 
-## Scope
+## Jest on APIs.io
 
-- **Type:** Index
+Everything profiled for Jest is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jest/](https://apis.io/providers/jest/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (3)
 
- - JavaScript, Mocking, Snapshot Testing, Testing, Unit Testing
+- [Jest Core API](https://apis.io/apis/jest/jest-core-api/) — Core testing framework API for writing and running tests, including globals, expect assertions, mock functions, and configuration options.
+- [Jest CLI](https://apis.io/apis/jest/jest-cli/) — Command-line interface for running Jest tests with various options.
+- [Jest Configuration API](https://apis.io/apis/jest/jest-configuration/) — Programmatic configuration options for customizing Jest behavior.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-03-16
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Jest Core API
-Core testing framework API for writing and running tests, including globals, expect assertions, mock functions, and configuration options.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://jestjs.io/docs/api](https://jestjs.io/docs/api)
+- [Jest Domain Security](https://apis.io/security/jest/jest-domain-security/)
 
-#### Tags:
+#### Plans and pricing (1)
 
- - Assertions, Mocking, Testing
+Published plans, tiers and prices.
 
-#### Properties
+- [Jest Plans Pricing](https://apis.io/plans/jest/jest-plans-pricing/)
 
-- [Documentation](https://jestjs.io/docs/getting-started)
-- [Reference](https://jestjs.io/docs/api)
+#### Rate limits (1)
 
-### Jest CLI
-Command-line interface for running Jest tests with various options.
+Published request limits.
 
-**Human URL:** [https://jestjs.io/docs/cli](https://jestjs.io/docs/cli)
+- [Jest Rate Limits](https://apis.io/rate-limits/jest/jest-rate-limits/)
 
-#### Tags:
+#### FinOps (1)
 
- - CLI, Command Line
+What the API costs to run, by operation.
 
-#### Properties
+- [Jest Finops](https://apis.io/finops/jest/jest-finops/)
 
-- [Documentation](https://jestjs.io/docs/cli)
+## Where to find this API
 
-### Jest Configuration API
-Programmatic configuration options for customizing Jest behavior.
-
-**Human URL:** [https://jestjs.io/docs/configuration](https://jestjs.io/docs/configuration)
-
-#### Tags:
-
- - Configuration, Setup
-
-#### Properties
-
-- [Documentation](https://jestjs.io/docs/configuration)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://jestjs.io)
 - [Documentation](https://jestjs.io/docs/getting-started)
 - [Blog](https://jestjs.io/blog)
-- [GitHub Organization](https://github.com/jestjs)
-- [Community](https://discord.gg/j6FKKQQrW9)
+- [GitHub](https://github.com/jestjs)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 12.1** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jest/](https://apis.io/providers/jest/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jest: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jest/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
